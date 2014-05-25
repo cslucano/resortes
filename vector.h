@@ -1,3 +1,6 @@
+#ifndef VECTOR_H
+#define VECTOR_H
+
 class Vector
 {
   private:
@@ -9,3 +12,4 @@ class Vector
     double getY() { return this->y; }
     static Vector* suma(Vector* vector1, Vector* vector2);
 };
+#endif // VECTOR_H
